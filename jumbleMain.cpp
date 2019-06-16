@@ -136,7 +136,7 @@ void testJumble() {
 //     even if you don't run out of memory.
 //     Of course you won't get a memory leak error if you are using the heap properly,
 //     and the program will terminate normally!
-    int loopLimit = 10;
+    int loopLimit = 1000;
     for (int i = 0; i < loopLimit; i++)
         JumblePuzzle jp("HIDDENWORD", "hard");
     cout << "\nPassed memory leak test!" << endl;
